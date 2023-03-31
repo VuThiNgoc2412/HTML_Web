@@ -1,0 +1,147 @@
+* {
+    box-sizing: inherit;
+}
+
+body{
+    margin: 0;
+    height: 2000px;
+}
+.form {
+    position: relative;
+}
+
+/* Header */
+.header {
+    position: fixed;
+    top: 0;
+    background-color: #4ebae7;
+    height: 80px;
+    width: 100%;
+    color: #fff;
+    display: flex;
+    padding-left: 180px;
+    z-index: 1;
+}
+.header__logo{
+    font-size: 36px;
+    font-weight: 600;
+    margin: 0 40px 0 0;
+    line-height: 80px;
+}
+.header__register{
+    font-size: 24px;
+    font-weight: 500;
+    margin: 0;
+    line-height: 80px;
+}
+
+/* Container */
+.container{}
+.register{
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+.register__list{
+    background-color: rgb(236, 225, 210);
+    width: 600px;
+    list-style: none;
+    padding: 18px 120px 32px 24px;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgb(224, 217, 217) ;
+}
+.register__item{
+    display: flex;
+    height: 32px;
+    margin-top: 16px;
+}
+.register__label{
+    width: 200px;
+    margin: 0;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.register__input{
+    flex: 1;
+    border-color: rgb(224, 219, 219);
+}
+.register__rule {
+    display: flex;
+}
+.register__check {
+    margin: 0 16px 0 24px;
+}
+.register__text {
+    font-size: 16px;
+}
+.register__btn{
+}
+.register__btn-link{
+    background-color: #4ebae7;
+    height: 40px;
+    min-width: 120px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0 0 560px;
+    border-radius: 3px;
+}
+
+
+.login{
+    position: absolute;
+    top: 200px;
+    left: 360px;
+}
+.login__list{
+    background-color: rgb(236, 225, 210);
+    width: 600px;
+    list-style: none;
+    padding: 18px 120px 32px 24px;
+    border-radius: 3px;
+    box-shadow: 0 0 20px rgb(224, 217, 217) ;
+}
+.login__item{
+    display: flex;
+    height: 32px;
+    margin-top: 16px;
+}
+.login__label{
+    width: 200px;
+    margin: 0;
+    line-height: 32px;
+    font-size: 16px;
+    font-weight: 500;
+}
+.login__input{
+    flex: 1;
+    border-color: rgb(224, 219, 219);
+}
+.login__save {
+    display: flex;
+}
+.login__check {
+    margin: 0 16px 0 24px;
+}
+.login__text {
+    font-size: 16px;
+}
+.login__btn{
+}
+.login__btn-link{
+    background-color: #4ebae7;
+    height: 40px;
+    min-width: 120px;
+    display: inline-block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 40px;
+    font-size: 18px;
+    color: #fff;
+    margin: 20px 0 0 560px;
+    border-radius: 3px;
+}

@@ -1,0 +1,79 @@
+/* PC */
+/* @media(min-width: 1024px) {
+    .header__mobile-menu {
+        display: none;
+    }
+} */
+/* Tablet */
+/* @media(min-width: 741px) and(max-width: 1023px){
+    .contact__info {
+        line-height: 2;
+    }
+} */
+/* Tablet and Mobile */
+@media(max-width: 63.9375em){ 
+    .btn {
+        padding: 16px;
+    }
+    .contact__info {
+        line-height: 2;
+    }
+    .contact__control {
+        padding: 15px 0;
+        font-size: 16px;
+    }
+    .contact__submit {
+        font-size: 16px;
+    }
+    .footer__social {
+        font-size: 48px;
+    }
+    .footer__social i {
+        margin: 0 8px;
+    }
+    .footer__copyright a {
+        padding: 12px 0;
+        display: inline-block;
+    }
+}
+/* Mobile */
+@media(max-width: 46.1875em){
+    .s-fullwidth {
+        width: 100%;
+    }
+    .s-mt-8 {
+        margin-top: 8px;
+    }
+    .row {
+        display: block;
+    }
+    #header {
+        display: block;
+        overflow: hidden;
+    }
+    .navbar {
+        display: block;
+    }
+    .header__mobile-menu {
+        display: block;
+    }
+    .header__search{
+        display: none;
+    }
+    .subnav {
+        position: initial;
+        background-color: #333;
+    }
+    .subnav__item{
+        padding: 14px 40px;
+    }
+    .subnav__item-link {
+        color: #fff;
+    }
+    .place__body {
+        padding: 16px 0;
+    }
+    .contact__form {
+        margin-top: 32px;
+    }
+}
